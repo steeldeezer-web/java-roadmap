@@ -11,8 +11,8 @@ public class Task3 {
                 Arrays.asList(4, 5),
                 Arrays.asList(6, 7, 8, 9)
         );
-        List<Integer> flatList = listOfLists.stream().flatMap(List::stream).collect(Collectors.toList());
+        List<Integer> flat = listOfLists.stream().flatMap(List::stream).collect(Collectors.toList());
 
-        System.out.println(flatList);
+        System.out.println(flat);
     }
 }
