@@ -28,9 +28,7 @@ public class Task2 {
                 }
                 left++;
                 right--;
-            }git add src/day1/Task2_ValidPalindrome.java
-            git commit -m "docs: add English Javadoc for isPalindrome method with two-pointer explanation"
-            git push
+            }
 
 
         }
