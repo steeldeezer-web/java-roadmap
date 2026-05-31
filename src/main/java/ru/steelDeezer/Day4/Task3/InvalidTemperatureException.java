@@ -1,8 +1,8 @@
-package ru.steelDeezer.Day4;
+package ru.steelDeezer.Day4.Task3;
 
-public class InvalidTemperatureException  extends Exception {
+public class InvalidTemperatureException extends Exception {
 
-        public TemperatureChecker(String string){
+        public InvalidTemperatureException(String string){
             super(string);
         }
 }
