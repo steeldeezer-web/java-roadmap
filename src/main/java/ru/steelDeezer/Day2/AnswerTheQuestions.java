@@ -1,5 +1,8 @@
 package ru.steelDeezer.Day2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AnswerTheQuestions {
 
     /*## 🎯 ЗАДАЧА 3 — Найди ошибку в рассуждении
@@ -34,6 +37,7 @@ public static void main(String[] args) {
     List<String> myList = createList();  // myList (ссылка в стеке main)
     // myList указывает на ТОТ ЖЕ объект в heap
     // объект НЕ УДАЛЁН, программа работает
+    }
 }
 /*
 Код должен:
@@ -46,5 +50,4 @@ public static void main(String[] args) {
 В нашем примере ссылка на объект присваивается переменной myList и объект продолжает жить
 - Кто и когда удаляет объекты в Java?
 Сборщик мусора когда на объект нет ссылок, при сборке мусора объект будет удален.
-
-}
+ */
