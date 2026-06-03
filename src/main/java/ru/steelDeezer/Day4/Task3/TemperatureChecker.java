@@ -16,6 +16,4 @@ public class TemperatureChecker {
         }
     }
 }
-/*
-feat: add Day4.Task3.with custom checked exception and finally block
- */
+

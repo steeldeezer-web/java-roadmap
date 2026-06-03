@@ -15,6 +15,3 @@ public class Task1 {
         System.out.println(divide(0, 10));
     }
 }
-/*
-feat: add Day4.Task1 solution for division without exceptions
- */

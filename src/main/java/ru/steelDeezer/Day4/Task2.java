@@ -26,6 +26,3 @@ public class Task2 {
 
     }
 }
-/*
-feat: add Day4.Task2 solution how generated NullPointerException, IndexOutOfBoundsException
- */
